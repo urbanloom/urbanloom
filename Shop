@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop - Urban Loom</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 2rem;
+      margin: 2rem;
+    }
+
+    .product-card {
+      background: #1c1c1e;
+      padding: 1rem;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 0 10px rgba(0,255,247,0.2);
+    }
+
+    .product-card img {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    .product-card h3 {
+      margin: 0.5rem 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">Urban Loom</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="cart.html">Cart</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1 style="text-align:center;">Shop All Products</h1>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1555529669-e69c4fcd76c3" alt="Futuristic Jacket">
+        <h3>Futuristic Jacket</h3>
+        <p>$120.00</p>
+      </div>
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f" alt="Cyber Hoodie">
+        <h3>Cyber Hoodie</h3>
+        <p>$85.00</p>
+      </div>
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1604147706283-0b5b6a76810b" alt="Glow Sneakers">
+        <h3>Glow Sneakers</h3>
+        <p>$99.00</p>
+      </div>
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1585386959984-a4155224fddb" alt="Neon Pants">
+        <h3>Neon Pants</h3>
+        <p>$74.00</p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-links">
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <p>&copy; 2025 Urban Loom</p>
+  </footer>
+</body>
+</html>
